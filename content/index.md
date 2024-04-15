@@ -15,3 +15,7 @@ updated: 2024-04-14 8:45:06 PM
 ## [👨‍🌾 Garden](garden.md)
 
 The [👨‍🌾 Garden](garden.md) represents notes on specific subjects that are meant to evolve over time. For instance, while I am learning `git` I might add a `git` page with a small collection of things that I want to remember.
+
+## [📝 Blog](blog.md)
+
+🚧 Nothing here yet... 🚧
