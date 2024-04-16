@@ -8,12 +8,12 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
-    pageTitleSuffix: "",
+    pageTitle: "🛰️ Sam Erickson",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
-      provider: "plausible",
+      provider: "unami",
+      websiteId: "46428dd9-fb5c-43cc-8938-d8aa1e2cc347"
     },
     locale: "en-US",
     baseUrl: "samerickson.github.io",
