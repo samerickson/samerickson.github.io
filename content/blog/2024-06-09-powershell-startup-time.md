@@ -1,10 +1,11 @@
 ---
 id: powershell-startup-time
 aliases:
-  - powershell-startup-time
+  - 🐚 powershell startup time
 tags: []
+title: 🐚 powershell startup time
 ---
-# PowerShell Startup Time
+# 🐚 PowerShell Startup Time
 
 I recently found that my startup time for [powershell](powershell.md) has been really slow. To combat this I found some resources indicating that launching [powershell](powershell.md) with `-nologo` to speed things up. However I was not seeing the results that I wanted. That is when I found this page [PowerShell steps to fix slow startup](https://stackoverflow.com/questions/59341482/powershell-steps-to-fix-slow-startup).
 
