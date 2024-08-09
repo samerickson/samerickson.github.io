@@ -1,14 +1,14 @@
 ---
 id: wsl-backups
 aliases:
-  - 💻 wsl-backups
+  - 💻 WSL Backups
 tags: 
-title: 💻 wsl-backups
+title: 💻 WSL Backups
 ---
 I have accidentally messed up my WSL installations a couple of times by just playing around with things and tinkering with the system files. I like being able to do this, even if I do not really know how, and sometimes make mistakes--it is a beneficial learning experience for me each time. So rather than leaving things as they are and not playing around with things that I should not, I choose to make frequent backups.
 
 ## 🚒  Making Backups
-I back up my WSL installations using a tarball created by the `WSL` executable supplied by Microsoft, using a command much like the one listed below.
+I back up my WSL installations using a `tarball` created by the `WSL` executable supplied by Microsoft, using a command much like the one listed below.
 
 ```bash
 WSL --export Ubuntu C:\Documents\WSL\Ubuntu-WSL.tar
