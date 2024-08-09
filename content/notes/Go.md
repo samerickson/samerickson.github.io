@@ -3,7 +3,9 @@ id: Go
 title: 🐿️ Go
 aliases:
   - 🐿️ Go
-tags: []
+tags:
+  - go
+  - development
 ---
 To create a new go project you can enter the following:
 

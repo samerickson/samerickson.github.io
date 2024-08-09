@@ -2,7 +2,10 @@
 id: wsl-backups
 aliases:
   - 💻 WSL Backups
-tags: 
+tags:
+  - wsl
+  - linux
+  - development
 title: 💻 WSL Backups
 ---
 I have accidentally messed up my WSL installations a couple of times by just playing around with things and tinkering with the system files. I like being able to do this, even if I do not really know how, and sometimes make mistakes--it is a beneficial learning experience for me each time. So rather than leaving things as they are and not playing around with things that I should not, I choose to make frequent backups.
