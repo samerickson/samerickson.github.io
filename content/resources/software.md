@@ -3,7 +3,10 @@ id: software
 title: 👨‍💻 Software I Use
 aliases:
   - 🐿️ 👨‍💻 Software I Use
-tags: []
+tags:
+  - software
+  - resources
+  - development
 ---
 This page contains a collection of links to software that I use.
 
