@@ -18,4 +18,4 @@ The [👨‍🌾 Garden](garden.md) represents notes on specific subjects that a
 
 ## [📝 Blog](blog.md)
 
-🚧 Nothing here yet... 🚧
+* [🐚 2024-06-09 PowerShell Startup Time](2024-06-09-powershell-startup-time.md)
