@@ -13,3 +13,4 @@ title: 🏭 Incremental Games
 - [Space Company](https://sparticle999.github.io/SpaceCompany/)
 - [Universal Paperclips](https://www.decisionproblem.com/paperclips/index2.html)
 - [Swarm Simulator](https://www.swarmsim.com/#/tab/meat/unit/drone)
+- [Kittens Game](http://bloodrizer.ru/games/kittens/)
