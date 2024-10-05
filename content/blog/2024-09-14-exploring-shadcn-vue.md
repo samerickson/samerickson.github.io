@@ -1,7 +1,5 @@
 ---
 id: exploring-shadcn-vue
-aliases:
-  - 🛥️ Exploring Shadcn-Vue
 tags: []
 title: 🛥️ Exploring Shadcn-Vue
 ---

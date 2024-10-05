@@ -1,8 +1,6 @@
 ---
 id: software
 title: 👨‍💻 Software I Use
-aliases:
-  - 🐿️ 👨‍💻 Software I Use
 tags:
   - software
   - resources

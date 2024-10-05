@@ -1,7 +1,5 @@
 ---
 id: agar-io
-aliases:
-  - 🏓 agar.io
 tags:
 title: 🏓 agar.io
 ---

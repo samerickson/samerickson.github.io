@@ -1,11 +1,7 @@
 ---
 id: index
-aliases:
-  - 🏡 Home Page
 tags: []
-date: 2024-04-14 8:45:06 PM
 title: 🏡 Home Page
-updated: 2024-04-14 8:45:06 PM
 ---
 
 > [!abstract]

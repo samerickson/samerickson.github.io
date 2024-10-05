@@ -1,7 +1,5 @@
 ---
 id: wsl-backups
-aliases:
-  - 💻 WSL Backups
 tags:
   - wsl
   - linux

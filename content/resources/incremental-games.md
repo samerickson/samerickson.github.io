@@ -1,7 +1,5 @@
 ---
 id: incremental-games
-aliases:
-  - 🏭 Incremental Games
 tags:
   - games
   - time-wasting

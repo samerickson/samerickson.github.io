@@ -1,8 +1,6 @@
 ---
 id: npm-link
 title: 📦 NPM | Link
-aliases:
-  - 📦 NPM | Link
 tags:
   - npm
 ---

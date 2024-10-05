@@ -1,8 +1,6 @@
 ---
-id: Go
+id: go
 title: 🐿️ Go
-aliases:
-  - 🐿️ Go
 tags:
   - go
   - development
