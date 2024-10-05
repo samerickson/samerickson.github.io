@@ -1,7 +1,7 @@
 ---
-id: {{title}}
+id: { { title } }
 aliases:
-  - {{title}}
+  - { { title } }
 tags: []
-title: {{title}}
+title: { { title } }
 ---

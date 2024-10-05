@@ -14,7 +14,7 @@ const config: QuartzConfig = {
     analytics: {
       provider: "umami",
       host: "https://us.umami.is",
-      websiteId: "46428dd9-fb5c-43cc-8938-d8aa1e2cc347"
+      websiteId: "46428dd9-fb5c-43cc-8938-d8aa1e2cc347",
     },
     locale: "en-US",
     baseUrl: "samerickson.github.io",
