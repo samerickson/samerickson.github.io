@@ -8,12 +8,13 @@ tags:
 ---
 
 NPM link allows you to override where [📦 NPM](npm.md) gets a package from.
-* [npm-link | npm Docs](https://docs.npmjs.com/cli/v8/commands/npm-link)*
+
+- [npm-link | npm Docs](https://docs.npmjs.com/cli/v8/commands/npm-link)\*
 
 ## Steps
 
 > [!WARNING] Warning
-> `npm link` requires the versions of node to match. 
+> `npm link` requires the versions of node to match.
 
 1. Navigate to the locally cloned repository for a dependency you want to add
 2. Note the name of the package in the `package.json`

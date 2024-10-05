@@ -5,7 +5,8 @@ aliases:
 tags: []
 title: 🛥️ Exploring Shadcn-Vue
 ---
-[Shadcn](https://www.shadcn-vue.com/) seems to be a wrapper around [radix-vue](https://www.radix-vue.com/).  It is not a component library, but a framework for allowing you to easily create your own component libraries. This is nice for using nicely designed components without being forced to have a noticeable forced style in your application, like you would have when you used bootstrap or material design.
+
+[Shadcn](https://www.shadcn-vue.com/) seems to be a wrapper around [radix-vue](https://www.radix-vue.com/). It is not a component library, but a framework for allowing you to easily create your own component libraries. This is nice for using nicely designed components without being forced to have a noticeable forced style in your application, like you would have when you used bootstrap or material design.
 
 ## Installing Components
 
@@ -28,12 +29,16 @@ For instance, I created the following:
   <Card class="w-[250px]">
     <CardHeader>
       <CardTitle>{{ props.box.name }}</CardTitle>
-      <CardDescription>Location: {{  props.box.location }}</CardDescription>
+      <CardDescription>Location: {{ props.box.location }}</CardDescription>
     </CardHeader>
     <CardFooter class="flex justify-end px-6 pb-6">
-      <Button @click="() => {
+      <button
+        @click="() => {
       router.push({ name: 'boxContents', params: { id: box.id }})
-    }">Open</Button>
+    }"
+      >
+        Open
+      </button>
     </CardFooter>
   </Card>
 </template>
@@ -47,12 +52,12 @@ The entire card title is just a few lines of code:
 
 ```html
 <script setup lang="ts">
-import type { HTMLAttributes } from 'vue'
-import { cn } from '@/lib/utils'
+  import type { HTMLAttributes } from "vue"
+  import { cn } from "@/lib/utils"
 
-const props = defineProps<{
-  class?: HTMLAttributes['class']
-}>()
+  const props = defineProps<{
+    class?: HTMLAttributes["class"]
+  }>()
 </script>
 
 <template>
@@ -73,52 +78,28 @@ This component is used to create the default title, but if you wanted to use the
 One of the things I liked the most was how components are organized and then imported. The components directory gets a `ui` sub folder that contains folders for all the [shadcn-vue](https://www.shadcn-vue.com/) components that have been installed.
 
 ```html
-.
-├── boxEntry.vue
-├── createBox.vue
-└── ui
-    ├── button
-    │   ├── Button.vue
-    │   └── index.ts
-    ├── card
-    │   ├── Card.vue
-    │   ├── CardContent.vue
-    │   ├── CardDescription.vue
-    │   ├── CardFooter.vue
-    │   ├── CardHeader.vue
-    │   ├── CardTitle.vue
-    │   └── index.ts
-    ├── input
-    │   ├── Input.vue
-    │   └── index.ts
-    └── label
-        ├── Label.vue
-        └── index.ts
+. ├── boxEntry.vue ├── createBox.vue └── ui ├── button │ ├── Button.vue │ └── index.ts ├── card │
+├── Card.vue │ ├── CardContent.vue │ ├── CardDescription.vue │ ├── CardFooter.vue │ ├──
+CardHeader.vue │ ├── CardTitle.vue │ └── index.ts ├── input │ ├── Input.vue │ └── index.ts └── label
+├── Label.vue └── index.ts
 ```
 
 The components are defined just like you would normally define a single file component using either the options or composable API. Then the `index.ts` file is used to make all nested components modular:
 
 ```tsx
-
 // Contents of card/index.ts
-export { default as Card } from './Card.vue'
-export { default as CardHeader } from './CardHeader.vue'
-export { default as CardTitle } from './CardTitle.vue'
-export { default as CardDescription } from './CardDescription.vue'
-export { default as CardContent } from './CardContent.vue'
-export { default as CardFooter } from './CardFooter.vue'
+export { default as Card } from "./Card.vue"
+export { default as CardHeader } from "./CardHeader.vue"
+export { default as CardTitle } from "./CardTitle.vue"
+export { default as CardDescription } from "./CardDescription.vue"
+export { default as CardContent } from "./CardContent.vue"
+export { default as CardFooter } from "./CardFooter.vue"
 ```
 
 This makes it so that you can import these components using destructuring:
 
 ```tsx
-import {
-  Card,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from '@/components/ui/card'
+import { Card, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 ```
 
 ## Passing CSS classes as properties
@@ -133,7 +114,7 @@ Interestingly it does not define any defaults, ore required flags, it just creat
 
 ## Downsides
 
-Both [Shadcn](https://www.shadcn-vue.com/) and [radix-vue](https://www.radix-vue.com/) make heavy use of  [tailwindcss](https://tailwindcss.com/). Which has the immediate downside of large compiled CSS files in your application. A variation of this application that does not make use of [tailwind](https://tailwindcss.com/) has been asked for on [GitHub](https://github.com/shadcn-ui/ui/discussions/2832).
+Both [Shadcn](https://www.shadcn-vue.com/) and [radix-vue](https://www.radix-vue.com/) make heavy use of [tailwindcss](https://tailwindcss.com/). Which has the immediate downside of large compiled CSS files in your application. A variation of this application that does not make use of [tailwind](https://tailwindcss.com/) has been asked for on [GitHub](https://github.com/shadcn-ui/ui/discussions/2832).
 
 ## Conclusion
 
