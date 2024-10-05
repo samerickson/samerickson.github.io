@@ -2,7 +2,7 @@
 id: npm
 title: 📦 NPM
 aliases:
-  - 📦 NPM
+  - npm
 tags:
   - npm
 ---

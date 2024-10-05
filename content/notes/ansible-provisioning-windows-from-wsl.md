@@ -1,7 +1,5 @@
 ---
 id: ansible-provisioning-windows-from-wsl
-aliases:
-  - 🪟 Provisioning Windows from WSL
 tags:
   - development
   - ansible

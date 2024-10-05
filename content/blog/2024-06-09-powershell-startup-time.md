@@ -1,7 +1,5 @@
 ---
 id: powershell-startup-time
-aliases:
-  - 🐚 powershell startup time
 tags: []
 title: 🐚 powershell startup time
 ---

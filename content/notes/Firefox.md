@@ -1,7 +1,5 @@
 ---
-id: Firefox
-aliases:
-  - 🦊 Firefox
+id: firefox
 tags:
   - software
 title: 🦊 Firefox

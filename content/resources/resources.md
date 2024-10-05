@@ -1,7 +1,5 @@
 ---
 id: resources
-aliases:
-  - 📕 Resources
 tags:
   - resources
   - learning

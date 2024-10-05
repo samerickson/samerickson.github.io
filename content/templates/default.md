@@ -1,7 +1,5 @@
 ---
-id: { { title } }
-aliases:
-  - { { title } }
+id:
 tags: []
 title: { { title } }
 ---
