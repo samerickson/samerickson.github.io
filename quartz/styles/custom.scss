@@ -1,3 +1,22 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+body {
+  font-size: 1.2rem;
+}
+
+.page .page-title {
+  font-size: 1.6rem;
+}
+
+.folder-outer li {
+  margin-top: 0.3rem;
+}
+
+.page .graph>h3,
+.page .backlinks>h3,
+.page button#toc h3,
+.page button#explorer h2,
+.folder-container div>button span.folder-title {
+  font-size: 1.3rem;
+}
