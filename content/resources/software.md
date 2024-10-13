@@ -30,3 +30,5 @@ This page contains a collection of links to software that I use.
 - [GitHub - Schniz/fnm: 🚀 Fast and simple Node.js version manager, built in Rust](https://github.com/Schniz/fnm)
 - [Starship](https://starship.rs/)
 - [GitHub - ajeetdsouza/zoxide: A smarter cd command. Supports all major shells.](https://github.com/ajeetdsouza/zoxide)
+- [GitHub - eza-community/eza: A modern alternative to ls](https://github.com/eza-community/eza)
+- [GitHub - XAMPPRocky/tokei: Count your code, quickly.](https://github.com/XAMPPRocky/tokei)
