@@ -14,10 +14,7 @@ This page contains a collection of links to software that I use.
 - [Notion – The all-in-one workspace for your notes, tasks, wikis, and databases.](https://www.notion.so/)
 - [Obsidian - Sharpen your thinking](https://obsidian.md/)
 - [Excalidraw | Hand-drawn look & feel • Collaborative • Secure](https://excalidraw.com/)
-
-## 📦Miscellanious
-
-- [Omnivore](https://omnivore.app)
+- [Eraser.io](https://app.eraser.io/)
 
 ## 🍴Git
 
@@ -32,3 +29,4 @@ This page contains a collection of links to software that I use.
 - [GitHub - ajeetdsouza/zoxide: A smarter cd command. Supports all major shells.](https://github.com/ajeetdsouza/zoxide)
 - [GitHub - eza-community/eza: A modern alternative to ls](https://github.com/eza-community/eza)
 - [GitHub - XAMPPRocky/tokei: Count your code, quickly.](https://github.com/XAMPPRocky/tokei)
+- [GitHub - sharkdp/bat: A cat(1) clone with wings.](https://github.com/sharkdp/bat)
