@@ -1,6 +1,6 @@
 ---
 id: software
-title: 👨‍💻 Software I Use
+title: Software I Use
 tags:
   - software
   - resources
