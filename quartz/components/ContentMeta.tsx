@@ -1,8 +1,8 @@
-import { Date, getDate } from "./Date"
+import { Date, formatDate, getDate } from "./Date"
 import { QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import readingTime from "reading-time"
 import { classNames } from "../util/lang"
-import { i18n } from "../i18n"
+import { i18n, ValidLocale } from "../i18n"
 import { JSX } from "preact"
 import style from "./styles/contentMeta.scss"
 
@@ -19,6 +19,10 @@ const defaultOptions: ContentMetaOptions = {
   showComma: true,
 }
 
+const createTimeEntry = (message: string, date: Date, locale: ValidLocale = "en-US") => {
+  return <span>{message}<time datetime={date.toISOString()}>{formatDate(date, locale)}</time></span>
+}
+
 export default ((opts?: Partial<ContentMetaOptions>) => {
   // Merge options with defaults
   const options: ContentMetaOptions = { ...defaultOptions, ...opts }
@@ -31,11 +35,11 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
 
       if (fileData.dates) {
         if (fileData.dates.created) {
-          segments.push(`🪴 Created: ${formatDate(getDate(cfg, fileData)!, cfg.locale)}`)
+          segments.push(createTimeEntry('🪴 Created:', fileData.dates.created, cfg.locale))
         }
 
         if (fileData.dates.modified) {
-          segments.push(`🌴 Last Modified: ${formatDate(getDate(cfg, fileData)!, cfg.locale)}`)
+          segments.push(createTimeEntry('🌴 Last Modified:', fileData.dates.modified, cfg.locale))
         }
       }
 
