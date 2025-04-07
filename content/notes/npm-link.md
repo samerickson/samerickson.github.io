@@ -3,6 +3,8 @@ id: npm-link
 title: 📦 NPM | Link
 tags:
   - npm
+modified: 2025-04-06T17:08:53-07:00
+created: 2025-04-06T16:59:33-07:00
 ---
 
 NPM link allows you to override where [📦 NPM](npm.md) gets a package from.

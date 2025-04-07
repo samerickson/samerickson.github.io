@@ -4,6 +4,8 @@ tags:
   - development
   - ansible
 title: 🪟 Provisioning Windows from WSL
+modified: 2025-04-06T17:07:38-07:00
+created: 2025-04-06T16:59:33-07:00
 ---
 
 I found this to be very difficult since most tutorials online just install ansible in WSL, and do not include provisioning the host Windows OS through WSL. Eventually I found this post: [https://landy.dev/2020/12/01/managing-windows-hosts-with-ansible/](https://landy.dev/2020/12/01/managing-windows-hosts-with-ansible/) which shows how to get ansible working through SSH, which is much easier than using WinRM.

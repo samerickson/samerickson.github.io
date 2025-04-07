@@ -1,7 +1,9 @@
 ---
 id: powershell-startup-time
-tags: []
+tags: 
 title: 🐚 powershell startup time
+modified: 2025-04-06T17:16:36-07:00
+created: 024-06-09T16:59:33-07:00
 ---
 
 # 🐚 PowerShell Startup Time

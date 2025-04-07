@@ -6,6 +6,8 @@ tags:
   - front-end
   - framework
 title: Vue
+modified: 2025-04-06T17:08:55-07:00
+created: 2025-04-06T16:59:33-07:00
 ---
 
 Vue is:

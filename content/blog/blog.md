@@ -1,8 +1,10 @@
 ---
 id: blog
-aliases:
+aliases: 
 tags: 
 title: 📝 Blog
+modified: 2025-04-06T17:16:24-07:00
+created: 2025-04-06T16:59:33-07:00
 ---
 # 2024
 

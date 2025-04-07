@@ -1,7 +1,9 @@
 ---
 id: exploring-shadcn-vue
-tags: []
+tags: 
 title: 🛥️ Exploring Shadcn-Vue
+modified: 2025-04-06T17:16:31-07:00
+created: 2024-09-14T16:59:33-07:00
 ---
 
 [Shadcn](https://www.shadcn-vue.com/) seems to be a wrapper around [radix-vue](https://www.radix-vue.com/). It is not a component library, but a framework for allowing you to easily create your own component libraries. This is nice for using nicely designed components without being forced to have a noticeable forced style in your application, like you would have when you used bootstrap or material design.

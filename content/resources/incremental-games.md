@@ -4,6 +4,8 @@ tags:
   - games
   - time-wasting
 title: 🏭 Incremental Games
+modified: 2025-04-06T17:09:19-07:00
+created: 2025-04-06T16:59:33-07:00
 ---
 
 - [Candy Box 2](https://candybox2.github.io/)
