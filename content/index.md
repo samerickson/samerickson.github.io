@@ -13,6 +13,6 @@ created: 2025-04-06T16:59:33-07:00
 
 The [📝notes](notes) represents notes on specific subjects that are meant to evolve over time.
 
-## [📜 Blog](blog.md)
+## [📜 Blog](01-Directory.md)
 
 A collection of thoughts and tutorials.

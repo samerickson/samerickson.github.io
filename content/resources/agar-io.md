@@ -2,11 +2,11 @@
 id: agar-io
 tags: 
 title: 🏓 agar.io
-modified: 2025-04-06T17:09:16-07:00
+modified: 2025-05-18T09:16:35-07:00
 created: 2025-04-06T16:59:33-07:00
 ---
 
-## 🏓 Remember Agar.io?
+## 🏓 Agar.io?
 
 Wikipedia defines [agar.io](https://www.agar.io/#ffa) as:
 

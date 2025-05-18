@@ -2,15 +2,24 @@
 id: powershell-startup-time
 tags: 
 title: 🐚 powershell startup time
-modified: 2025-04-06T17:16:36-07:00
+modified: 2025-05-18T09:12:05-07:00
 created: 024-06-09T16:59:33-07:00
 ---
 
 # 🐚 PowerShell Startup Time
 
-I recently found that my startup time for [powershell](powershell.md) has been really slow. To combat this I found some resources indicating that launching [powershell](powershell.md) with `-nologo` to speed things up. However I was not seeing the results that I wanted. That is when I found this page [PowerShell steps to fix slow startup](https://stackoverflow.com/questions/59341482/powershell-steps-to-fix-slow-startup).
+I noticed that [PowerShell](PowerShell.md) was taking a long time to start. One common tip is to launch it with the `-nologo`:
 
-That link suggests running the following as administrator:
+```
+pwsh -nologo
+```
+
+However, this didn't make a noticeable difference.
+
+While searching for solutions, I came across this Stack Overflow post:  
+[PowerShell steps to fix slow startup](https://stackoverflow.com/questions/59341482/powershell-steps-to-fix-slow-startup)
+
+The post suggests pre-compiling loaded assemblies using `ngen.exe`. Here’s the script it recommends (to be run as Administrator):
 
 ```powershell
 $env:PATH = [Runtime.InteropServices.RuntimeEnvironment]::GetRuntimeDirectory()
@@ -24,6 +33,6 @@ $env:PATH = [Runtime.InteropServices.RuntimeEnvironment]::GetRuntimeDirectory()
 }
 ```
 
-When I tried it I got an error indicating that `ngen.exe` could not be found. I did some digging and discovered that this is automatically installed with Visual Studio. So I opened Visual Studio and got a Developer PowerShell then ran the script.
+When I tried this, I got an error saying `ngen.exe` was not found. It turns out `ngen.exe` is included with Visual Studio. So I launched a _Developer PowerShell_ from Visual Studio and ran the script there.
 
-After doing this the start up time of pwsh (with `-nologo`) was significantly improved.
+After doing this, PowerShell startup (especially with `-nologo`) became noticeably faster.

@@ -5,11 +5,11 @@ tags:
   - linux
   - development
 title: 💻 WSL Backups
-modified: 2025-04-06T17:09:09-07:00
+modified: 2025-05-18T09:20:23-07:00
 created: 2025-04-06T16:59:33-07:00
 ---
 
-I have accidentally messed up my WSL installations a couple of times by just playing around with things and tinkering with the system files. I like being able to do this, even if I do not really know how, and sometimes make mistakes--it is a beneficial learning experience for me each time. So rather than leaving things as they are and not playing around with things that I should not, I choose to make frequent backups.
+I have accidentally messed up my WSL installations a couple of times by just playing around with things and tinkering with the system files. I like being able to do this, even if I do not really know how, and sometimes make mistakes–it is a beneficial learning experience for me each time. So rather than leaving things as they are and not playing around with things that I should not, I choose to make frequent backups.
 
 ## 🚒 Making Backups
 
