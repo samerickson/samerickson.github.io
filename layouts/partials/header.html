@@ -11,7 +11,7 @@
                 </svg>
             </a>
         </li>
-        {{ with .OutputFormats.Get "rss" }}
+        {{ with .Site.Home.OutputFormats.Get "rss" }}
         <li>
             <a href="{{ .RelPermalink }}" title="RSS" aria-label="RSS">
                 <!-- https://www.svgrepo.com/svg/35692/rss-feed-hand-drawn-symbol -->
