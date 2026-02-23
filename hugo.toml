@@ -10,3 +10,7 @@ title = 'Sam Erickson'
 
 [params]
     description = 'Personal website of Sam Erickson'
+
+[markup]
+  [markup.highlight]
+    style = 'doom-one2'

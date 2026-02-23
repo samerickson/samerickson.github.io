@@ -83,6 +83,15 @@ nav a svg.github-icon {
     margin: auto;
 }
 
+.highlight pre {
+    border-radius: 3px;
+    padding: 5px;
+}
+
+section p {
+    line-height: 1.7rem;
+}
+
 /** FOOTER */
 footer {
     min-height: 2rem;
