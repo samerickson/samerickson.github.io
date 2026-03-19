@@ -9,7 +9,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    font-family: "Raleway", sans-serif;
+    font-family: "Roboto Slab", serif;
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
