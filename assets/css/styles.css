@@ -89,6 +89,10 @@ nav a svg.github-icon {
     overflow: auto;
 }
 
+.goat.svg-container {
+    font-size: 16px;
+}
+
 section p {
     line-height: 1.7rem;
 }
