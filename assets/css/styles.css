@@ -86,6 +86,7 @@ nav a svg.github-icon {
 .highlight pre {
     border-radius: 3px;
     padding: 5px;
+    overflow: auto;
 }
 
 section p {
