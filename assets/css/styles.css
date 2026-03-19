@@ -84,8 +84,8 @@ nav a svg.github-icon {
 }
 
 .highlight pre {
-    border-radius: 3px;
-    padding: 5px;
+    border-radius: 0.3rem;
+    padding: 1rem;
     overflow: auto;
 }
 
