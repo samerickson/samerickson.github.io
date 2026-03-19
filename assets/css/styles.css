@@ -101,6 +101,11 @@ pre.mermaid {
     padding: 1rem;
 }
 
+ul li,
+ol li {
+    line-height: 2rem;
+}
+
 section p {
     line-height: 1.7rem;
 }
