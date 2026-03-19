@@ -93,6 +93,12 @@ nav a svg.github-icon {
     font-size: 16px;
 }
 
+pre.mermaid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 section p {
     line-height: 1.7rem;
 }
