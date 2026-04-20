@@ -110,6 +110,11 @@ section p {
     line-height: 1.7rem;
 }
 
+main img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
 /** FOOTER */
 footer {
     min-height: 2rem;
