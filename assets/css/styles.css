@@ -18,6 +18,7 @@ body {
 main {
     flex: 1;
     margin: auto;
+    width: 80%;
     min-width: 60vw;
     max-width: 16rem;
 }
@@ -136,4 +137,48 @@ footer a svg {
     width: 1.1rem;
     height: 1.1rem;
     display: block;
+}
+
+/** RESPONSIVENESS */
+
+@media screen and (width >= 1200px) {
+    main {
+        min-width: 60vw;
+    }
+}
+
+@media screen and (width <= 900px) {
+    main {
+        min-width: 80vw;
+    }
+}
+
+@media screen and (width <= 700px) {
+    footer,
+    nav ul {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (width <= 650px) {
+    nav {
+        display: block;
+    }
+
+    nav ul {
+        margin-top: 0.5rem;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    main {
+        min-width: none;
+        max-width: 100%;
+    }
+}
+
+@media screen and (width <= 460px) {
+    footer {
+        font-size: 0.8rem;
+    }
 }
