@@ -161,3 +161,9 @@ These diagrams are really cool, with lots of different designs:
 Here is a screenshot of the code in this page:
 
 ![Screenshot of some source code for this page](/images/blog-source-code-2026-03-19.png)
+
+## Footnotes
+
+Here is some text with a footnote[^1].
+
+[^1]: This is the actual footnote
