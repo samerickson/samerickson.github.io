@@ -19,8 +19,9 @@ main {
     flex: 1;
     margin: auto;
     width: 80%;
-    min-width: 60vw;
+    min-width: 80vw;
     max-width: 16rem;
+    text-align: justify;
 }
 
 /** generic classes */
@@ -108,7 +109,7 @@ ol li {
 }
 
 section p {
-    line-height: 1.7rem;
+    line-height: 2rem;
 }
 
 main img {
@@ -144,12 +145,6 @@ footer a svg {
 @media screen and (width >= 1200px) {
     main {
         min-width: 60vw;
-    }
-}
-
-@media screen and (width <= 900px) {
-    main {
-        min-width: 80vw;
     }
 }
 
