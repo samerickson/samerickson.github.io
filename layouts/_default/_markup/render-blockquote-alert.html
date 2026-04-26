@@ -1,0 +1,36 @@
+{{ $emojis := dict
+"caution" ":exclamation:"
+"danger" ":zap:"
+"warning" ":warning:"
+"attention" ":warning:"
+"question" ":question:"
+"todo" ":clipboard:"
+"note" ":information_source:"
+"tip" ":bulb:"
+"hint" ":bulb:"
+"bug" ":beetle:"
+"failure" ":x:"
+"note" ":memo:"
+"example" ":book:"
+"success" ":white_check_mark:"
+"done" ":white_check_mark:"
+"important" ":heavy_exclamation_mark:"
+}}
+
+{{ if eq .Type "alert" }}
+<blockquote class="alert alert-{{ .AlertType }}">
+  <p class="alert-heading">
+    {{ transform.Emojify (index $emojis .AlertType) }}
+    {{ with .AlertTitle }}
+    {{ . }}
+    {{ else }}
+    {{ or (i18n .AlertType) (title .AlertType) }}
+    {{ end }}
+  </p>
+  {{ .Text }}
+</blockquote>
+{{ else }}
+<blockquote>
+  {{ .Text }}
+</blockquote>
+{{ end }}

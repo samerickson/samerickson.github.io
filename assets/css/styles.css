@@ -11,7 +11,6 @@ body {
     flex-direction: column;
     font-family: "Roboto Slab", serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
     font-style: normal;
 }
 
@@ -144,6 +143,50 @@ footer a svg {
     width: 1.1rem;
     height: 1.1rem;
     display: block;
+}
+
+/** ALERTS **/
+.alert {
+    margin: 0 0 0.75rem 0;
+    padding: 0.25rem 1rem;
+    border-radius: 10px;
+}
+
+.alert-todo,
+.alert-note {
+    BACKGROUND-COLOR: #3b82f62e;
+}
+
+.alert-hint,
+.alert-tip {
+    background-color: #92f8f856;
+}
+
+.alert-attention,
+.alert-question,
+.alert-warning {
+    background-color: #f59e0b2e;
+}
+
+.alert-bug,
+.alert-failure,
+.alert-danger,
+.alert-caution {
+    background-color: #ef44442e;
+}
+
+.alert-done,
+.alert-success {
+    background-color: #22C55E2E;
+}
+
+.alert-important,
+.alert-example {
+    background-color: #f892f356;
+}
+
+.alert-heading {
+    margin-top: 0.25rem;
 }
 
 /** RESPONSIVENESS */
