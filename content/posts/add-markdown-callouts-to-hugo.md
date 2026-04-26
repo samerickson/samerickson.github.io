@@ -6,7 +6,7 @@ title = 'Add Markdown Callouts to Hugo'
 
 The goal is to have obsidian style callouts like this:
 
-![Obsidian callout showing how you can have custom titles and bodies](/images/obsidian-callout-2026-04-24.png)
+![Obsidian callout showing how you can have custom titles and bodies](/images/2026-04-25_obsidian-callout.png)
 
 The above image along with far more callout styles can be viewed [here](https://obsidian.md/help/callouts).
 
