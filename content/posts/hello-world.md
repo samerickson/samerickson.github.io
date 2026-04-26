@@ -160,7 +160,7 @@ These diagrams are really cool, with lots of different designs:
 
 Here is a screenshot of the code in this page:
 
-![Screenshot of some source code for this page](/images/blog-source-code-2026-03-19.png)
+![Screenshot of some source code for this page](/images/2026-03-19_blog-source-code.png)
 
 ## Footnotes
 

@@ -70,8 +70,8 @@ Testing callouts:
 
 Now, becuase I could update the styling of these callouts in the future, here are some screenshots of the originals:
 
-![Image of blue callouts](/images/blue-callouts-2026-04-25.png)
-![Image of green callouts](/images/green-callouts-2026-04-25.png)
-![Image of orange callouts](/images/orange-callouts-2026-04-25.png)
-![Image of red callouts](/images/red-callouts-2026-04-25.png)
-![Image of teal callouts](/images/teal-callouts-2026-04-25.png)
+![Image of blue callouts](/images/2026-04-25_blue-callouts.png)
+![Image of green callouts](/images/2026-04-25_green-callouts.png)
+![Image of orange callouts](/images/2026-04-25_orange-callouts.png)
+![Image of red callouts](/images/2026-04-25_red-callouts.png)
+![Image of teal callouts](/images/2026-04-25_teal-callouts.png)
